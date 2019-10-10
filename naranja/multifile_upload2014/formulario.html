@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Multifile Upload by elporfirio.com</title>
+</head>
+
+<body>
+<form action="procesarArchivos.php" method="post" enctype="multipart/form-data">
+	<label>Archivo 1</label>
+	<input type="file" name="archivo[]">
+	<br>
+	<label>Archivo 2</label>
+	<input type="file" name="archivo[]">
+	<br>
+	<label>Archivo 3</label>
+	<input type="file" name="archivo[]">
+	<br>
+	<input type="submit" value="Guardar Archivos">
+</form>
+</body>
+</html>

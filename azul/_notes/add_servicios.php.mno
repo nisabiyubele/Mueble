@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset2" value="name:idarticulos;datatype:int,name:articulo;datatype:string,name:modelo;datatype:string,name:existencia;datatype:real,name:cost_unitario;datatype:real,name:factura;datatype:string,name:codigo;datatype:string,name:isucursal;datatype:string,name:linea;datatype:blob,name:foto;datatype:blob,name:precio;datatype:int,name:garantia;datatype:real,name:descuento;datatype:int,name:utilidad;datatype:real" />
+	<infoitem key="UD_Recordset3" value="name:idcentrosevicio;datatype:int,name:nombre;datatype:string,name:tel;datatype:string,name:domicilio;datatype:string,name:responsable;datatype:string,name:tel_per;datatype:string,name:email;datatype:string,name:marcas;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:idservi;datatype:int,name:ruta;datatype:string,name:fec_in;datatype:date,name:fec_ve;datatype:date,name:contrato;datatype:string,name:cliente;datatype:string,name:direccion;datatype:string,name:colonia;datatype:string,name:municipio;datatype:string,name:articulo;datatype:string,name:modelo;datatype:string,name:serie;datatype:string,name:falla;datatype:string,name:observacion;datatype:string,name:centro;datatype:string,name:reporte;datatype:string,name:fec_en;datatype:date" />
+</info>

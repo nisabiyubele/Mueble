@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+    @media print {
+       #form2{
+  display: none;
+}
+#boton1{
+  display: none;
+}
+#calculadora{
+  display: none;
+
+    }
+
+

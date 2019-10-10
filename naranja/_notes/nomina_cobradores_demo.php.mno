@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:idprestamo;datatype:int,name:efectivo;datatype:real,name:fecha;datatype:datetime,name:num_sem;datatype:int,name:cob_sem;datatype:real,name:trabajadores_idtrabajadores;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:idvale;datatype:int,name:ruta;datatype:int,name:fecha;datatype:datetime,name:efectivo;datatype:real,name:tarjetas;datatype:int,name:trabajadores_idtrabajadores;datatype:int" />
+	<infoitem key="UD_Recordset3" value="name:idcortecaja;datatype:int,name:fecha_corte;datatype:datetime,name:concepto;datatype:string,name:cantidad;datatype:real,name:entrada;datatype:int" />
+	<infoitem key="UD_Recordset4" value="name:idtable1;datatype:int,name:cuenta;datatype:string,name:articulos_idarticulos;datatype:int,name:trabajadores_idtrabajadores;datatype:int,name:supervisor;datatype:string,name:zona;datatype:string,name:fecha;datatype:datetime,name:contrato;datatype:string,name:nom_c;datatype:string,name:dir_c;datatype:string,name:calle_c;datatype:string,name:mun_c;datatype:string,name:col_c;datatype:string,name:cantidad;datatype:int,name:modelo;datatype:string,name:serie;datatype:string,name:enganche;datatype:real,name:total;datatype:real,name:d_pago;datatype:string,name:abonos;datatype:int,name:tel_c;datatype:string,name:dom_aval;datatype:string,name:tel_aval;datatype:string,name:nombre_aval;datatype:string" />
+</info>

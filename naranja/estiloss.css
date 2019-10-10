@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tabla {
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: bold;
+}
+.formulario{
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.doc{
+	background-color: #2ECCFA;
+}
+
+.cli{
+	background-color: #58D3F7;
+}
+
+.cuenta{
+	background-color: #81DAF5;
+}
+
+.aval{
+	background-color: #A9E2F3;
+}
+.tabla {
+	font-family: Ubuntu, "Ubuntu Light", "Ubuntu Mono";
+	font-size: 10px;
+	color: #666;
+	background-color: #97DFFB;
+}

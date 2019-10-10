@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>Compra de frutas</title>
+<script>
+
+function calculo(cantidad,precio,inputtext,totaltext){
+	
+	/* Parametros:
+	cantidad - entero con la cantidad
+	precio - entero con el precio
+	inputtotal - nombre del elemento del formulario donde ira el total
+	*/
+	
+	// Calculo del subtotal
+	subtotal = precio*cantidad;
+	inputtext.value=subtotal;
+	
+	//Actualizar el total
+	// Utilizamos el eval. Ya que el valor es un texto y si lo tratamos como tal
+	// es como si estuviesemos manipulando una cadena.
+	total = eval(totaltext.value);
+	totaltext.value = total + subtotal;
+}
+</script>
+<body>
+
+<h1>Compra de Frutas</h1>
+
+<form>
+
+<table>
+<tr>
+<td></td>
+<td>Cantidad</td>
+<td>Precio/Ud</td>
+<td>Total</td>
+</tr>
+<tr>
+<td>1000</td>
+<td><input type="text" size="3" id="1000" value="0" onChange="calculo(this.value,1000.value,t1000,total);">uds</td>
+<td><input type="hidden" id="1000" value="1000"/> 7€</td>
+<td><input type="text" size="8" id="t1000" value="0">€</td>
+</tr>
+<tr>
+<td>500</td>
+<td><input type="text" size="3" id="500" value="0" onChange="calculo(this.value,500.value,t500,total);">uds</td>
+<td><input type="hidden" id="500" value="500"/>3€</td>
+<td><input type="text" size="8" id="t500" value="0">€</td>
+</tr>
+<tr>
+<td>200</td>
+<td><input type="text" size="3" id="200" value="0" onChange="calculo(this.value,200.value,t200,total);">uds</td>
+<td><input type="hidden" id="200" value="200"/>2€</td>
+<td><input type="text" size="8" id="t200" value="0">€</td>
+</tr>
+<tr>
+<td>100</td>
+<td><input type="text" size="3" id="100" value="0" onChange="calculo(this.value,100.value,t100,total);">uds</td>
+<td><input type="hidden" id="100" value="100"/>9€</td>
+<td><input type="text" size="8" id="t100" value="0">€</td>
+</tr>
+<tr>
+<td>50</td>
+<td><input type="text" size="3" id="50" value="0" onChange="calculo(this.value,50.value,t50,total);">uds</td>
+<td><input type="hidden" id="500" value="50"/>5€</td>
+<td><input type="text" size="8" id="t50" value="0">€</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td><input type="text" size="3" id="20" value="0" onChange="calculo(this.value,20.value,t20,total);">uds</td>
+<td><input type="hidden" id="20" value="20"/>5€</td>
+<td><input type="text" size="8" id="t20" value="0">€</td>
+</tr>
+
+
+<tr>
+<td>Monedas</td>
+<td><input type="text" size="3" id="moneda" value="0" onChange="calculo(this.value,moneda.value,tmoneda,total);">uds</td>
+<td><input type="hidden" id="moneda" value="1"/>5€</td>
+<td><input type="text" size="8" id="tmoneda" value="0">€</td>
+</tr>
+
+<tr>
+<td>Total</td>
+<td></td><td></td>
+<td><input type="text" id="total" size="8" value="0">€</td>
+</tr>
+
+</form>
+ 
+</body>
+</html>

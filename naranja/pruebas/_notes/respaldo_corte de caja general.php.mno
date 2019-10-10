@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset2" value="name:idtrabajadores;datatype:int,name:nombre;datatype:string,name:fecha_ingreso;datatype:date,name:fecha_termino;datatype:date,name:nss;datatype:string,name:puesto;datatype:string,name:depto;datatype:string,name:tipo;datatype:string,name:rfc;datatype:string,name:curp;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:idcortecaja;datatype:int,name:fecha_corte;datatype:datetime,name:trabajadores_idtrabajadores;datatype:int,name:concepto;datatype:string,name:cantidad;datatype:real,name:entrada;datatype:int" />
+	<infoitem key="UD_Recordset3" value="name:cantidad;datatype:real,name:SUM(cantidad);datatype:real" />
+	<infoitem key="UD_Recordset4" value="name:idcortecaja;datatype:int,name:fecha_corte;datatype:datetime,name:trabajadores_idtrabajadores;datatype:int,name:concepto;datatype:string,name:cantidad;datatype:real,name:entrada;datatype:int" />
+	<infoitem key="UD_Recordset5" value="name:cantidad;datatype:real,name:SUM(cantidad);datatype:real" />
+</info>

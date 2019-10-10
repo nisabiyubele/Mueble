@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:idvale;datatype:int,name:ruta;datatype:int,name:fecha;datatype:datetime,name:efectivo;datatype:real,name:tarjetas;datatype:int,name:trabajadores_idtrabajadores;datatype:int,name:idtrabajadores;datatype:int,name:nombre;datatype:string,name:fecha_ingreso;datatype:date,name:fecha_termino;datatype:date,name:nss;datatype:string,name:puesto;datatype:string,name:depto;datatype:string,name:tipo;datatype:string,name:rfc;datatype:string,name:curp;datatype:string,name:SUM(tarjetas);datatype:real,name:SUM(efectivo);datatype:real" />
+	<infoitem key="UD_Recordset2" value="name:idres_cob;datatype:int,name:total_tarjetas;datatype:real,name:total_cobro;datatype:real,name:num_tarjetas;datatype:int,name:porcentaje;datatype:real,name:meta;datatype:real,name:diferencia;datatype:real,name:trabajadores_idtrabajadores;datatype:int" />
+</info>

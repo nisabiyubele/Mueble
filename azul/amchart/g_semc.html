@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>chart created with amCharts | amCharts</title>
+		<meta name="description" content="chart created using amCharts live editor" />
+
+		<!-- amCharts javascript sources -->
+		<script src="./amcharts/amcharts.js"></script>
+  <script src="./amcharts/serial.js"></script>
+  <script src="./amcharts/plugins/dataloader/dataloader.min.js"></script>
+  <script src="./amcharts/themes/chalk.js"></script>
+  <script src="./amcharts/themes/dark.js"></script>
+  <script src="./amcharts/themes/light.js"></script>
+
+		<!-- amCharts javascript code -->
+		<script type="text/javascript">
+			AmCharts.makeChart("chartdiv",
+				{
+					
+					"type": "serial",
+					"categoryField": "fecha",
+					"startDuration": 1,
+					"categoryAxis": {
+						"gridPosition": "start"
+					},
+					"chartCursor": {
+						"enabled": true
+					},
+					"chartScrollbar": {
+						"enabled": true
+					},
+					"trendLines": [],
+					"graphs": [
+						{
+							
+							"fillAlphas": 1,
+							"id": "AmGraph-1",
+							"title": "graph 1",
+							"type": "column",
+							"valueField": "cantidad"
+						}
+					],
+					"guides": [],
+					"valueAxes": [
+						{
+							"id": "ValueAxis-1",
+							"title": "Cantidad"
+						}
+					],
+					
+					"allLabels": [],
+					"balloon": {},
+					"titles": [
+						{
+							"id": "Title-1",
+							"size": 15,
+							"text": "Cobranza por Semana"
+						}
+					],
+					   "dataLoader": {
+                       "url": "data_sm.php"
+   						}
+				});
+		</script>
+	</head>
+	<body>
+		<div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+	</body>
+</html>

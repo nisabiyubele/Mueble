@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:nombre;datatype:string,name:idvale;datatype:int,name:ruta;datatype:int,name:fecha;datatype:date,name:efectivo;datatype:real,name:tarjetas;datatype:int,name:trabajadores_idtrabajadores;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:idtrabajadores;datatype:int,name:nombre;datatype:string,name:fecha_ingreso;datatype:date,name:fecha_termino;datatype:date,name:nss;datatype:string,name:puesto;datatype:string,name:depto;datatype:string,name:tipo;datatype:string,name:rfc;datatype:string,name:curp;datatype:string,name:sucursal;datatype:string,name:tipo_contrato;datatype:string,name:status;datatype:string" />
+	<infoitem key="UD_Recordset3" value="name:idrutas;datatype:int,name:ruta;datatype:int,name:trabajadores_idtrabajadores;datatype:int,name:idtrabajadores;datatype:int,name:nombre;datatype:string,name:fecha_ingreso;datatype:date,name:fecha_termino;datatype:date,name:nss;datatype:string,name:puesto;datatype:string,name:depto;datatype:string,name:tipo;datatype:string,name:rfc;datatype:string,name:curp;datatype:string,name:sucursal;datatype:string,name:tipo_contrato;datatype:string,name:status;datatype:string" />
+</info>

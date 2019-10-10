@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:idabonos;datatype:int,name:fechab;datatype:datetime,name:acantidad;datatype:real,name:saldo;datatype:real,name:venta_has_articulos_articulos_idarticulos;datatype:int,name:venta_has_articulos_clientes_idclientes;datatype:int,name:venta_has_articulos_venta_idventa;datatype:string,name:cobrador;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:idcompra;datatype:int,name:articulos_idarticulos;datatype:int,name:clientes_idclientes;datatype:int,name:venta_ideventa;datatype:string,name:cancelada;datatype:date,name:fecha;datatype:timestamp,name:idclientes;datatype:int,name:nombre;datatype:string,name:direccion;datatype:string,name:referencia;datatype:string,name:colonia;datatype:string,name:municipio;datatype:string,name:telefono;datatype:string,name:cancelado;datatype:date,name:idarticulos;datatype:int,name:articulo;datatype:string,name:modelo;datatype:string,name:existencia;datatype:real,name:cost_unitario;datatype:real,name:factura;datatype:string,name:isucursal;datatype:string" />
+	<infoitem key="UD_Recordset3" value="name:id;datatype:int,name:cliente;datatype:int,name:cobrador;datatype:int,name:fecha;datatype:datetime" />
+</info>

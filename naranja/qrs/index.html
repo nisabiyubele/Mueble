@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Buscador de Clientes</title>
+<meta name ="author" content ="Norfi Carrodeguas">
+<script type="text/javascript" src="qrcode.js"></script>
+</head>
+<body onLoad="update_qrcode()">
+<div data-role="content">
+<form><input type="text" value="x" name="msg"  onKeyPress="update_qrcode()">
+
+<script>update_qrcode()</script>
+
+</form>
+</div>
+<div id="qr"></div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:numeco;datatype:string,name:tipo;datatype:string,name:marca;datatype:string,name:serie;datatype:string,name:modelo;datatype:string,name:placas;datatype:string,name:color;datatype:string,name:factura;datatype:string,name:vfactura;datatype:string,name:rodado;datatype:string,name:marc_x;datatype:string,name:observaciones;datatype:string,name:sucursal;datatype:string" />
+</info>

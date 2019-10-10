@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:idcombustible;datatype:int,name:area;datatype:string,name:fecha;datatype:date,name:folio;datatype:string,name:kini;datatype:real,name:kfin;datatype:real,name:litcarg;datatype:real,name:prexlit;datatype:real,name:sucursal;datatype:string,name:trabajadores_idtrabajadores;datatype:int,name:vehiculos_numeco;datatype:string,name:comentarios;datatype:string,name:rendimiento;datatype:real,name:kmfin;datatype:real,name:importe;datatype:real" />
+</info>

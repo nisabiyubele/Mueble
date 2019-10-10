@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:idcortecaja;datatype:int,name:fecha_corte;datatype:date,name:trabajadores_idtrabajadores;datatype:int,name:concepto;datatype:string,name:cantidad;datatype:real,name:entrada;datatype:int" />
+</info>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset6" value="name:idconceptos;datatype:int,name:nombre;datatype:string,name:entrada;datatype:string" />
+	<infoitem key="UD_Recordset7" value="name:numeco;datatype:string,name:tipo;datatype:string,name:marca;datatype:string,name:serie;datatype:string,name:modelo;datatype:string,name:placas;datatype:string,name:color;datatype:string,name:factura;datatype:string,name:vfactura;datatype:string,name:rodado;datatype:string,name:marc_x;datatype:string,name:observaciones;datatype:string,name:sucursal;datatype:string,name:km;datatype:real" />
+	<infoitem key="UD_Recordset1" value="name:idcortecaja;datatype:int,name:fecha_corte;datatype:date,name:concepto;datatype:string,name:cantidad;datatype:real,name:entrada;datatype:int,name:descripcion;datatype:string,name:comprobante;datatype:string,name:csucursal;datatype:string" />
+	<infoitem key="UD_Recordset5" value="name:cantidad;datatype:real,name:SUM(cantidad);datatype:real" />
+</info>

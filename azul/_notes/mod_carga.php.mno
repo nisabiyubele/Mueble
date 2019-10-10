@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:idcarga;datatype:int,name:fecha_carga;datatype:datetime,name:articulo;datatype:string,name:idart;datatype:int,name:modelo;datatype:string,name:serie;datatype:string,name:estado;datatype:string,name:observacion;datatype:blob,name:vendedor;datatype:int,name:status;datatype:string,name:fecha_des;datatype:datetime,name:descarga;datatype:blob" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset2" value="name:idtrabajadores;datatype:int,name:nombre;datatype:string,name:fecha_ingreso;datatype:date,name:fecha_termino;datatype:date,name:nss;datatype:string,name:puesto;datatype:string,name:depto;datatype:string,name:tipo;datatype:string,name:rfc;datatype:string,name:curp;datatype:string,name:sucursal;datatype:string,name:tipo_contrato;datatype:string" />
+</info>

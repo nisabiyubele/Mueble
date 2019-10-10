@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:idventas;datatype:int,name:fecha;datatype:date,name:articulos_idarticulos;datatype:int,name:trabajadores_idtrabajadores;datatype:int,name:serie;datatype:string,name:n_articulos;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:idarticulos;datatype:int,name:articulo;datatype:string,name:modelo;datatype:string,name:existencia;datatype:real,name:cost_unitario;datatype:real,name:factura;datatype:string" />
+	<infoitem key="UD_Recordset3" value="name:idtrabajadores;datatype:int,name:nombre;datatype:string,name:fecha_ingreso;datatype:date,name:fecha_termino;datatype:date,name:nss;datatype:string,name:puesto;datatype:string,name:depto;datatype:string,name:tipo;datatype:string,name:rfc_curp;datatype:string" />
+</info>

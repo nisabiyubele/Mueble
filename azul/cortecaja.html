@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+
+<script language="JavaScript"> 
+function mueveReloj(){ 
+   	momentoActual = new Date() 
+   	hora = momentoActual.getHours() 
+   	minuto = momentoActual.getMinutes() 
+   	segundo = momentoActual.getSeconds() 
+
+   	horaImprimible = hora + " : " + minuto + " : " + segundo 
+
+   	document.form_reloj.reloj.value = horaImprimible 
+
+   	setTimeout("mueveReloj()",1000) 
+	
+	if(hora >= 12){
+		
+		//alert("Tu tiempo en el Sistema se termino");
+		location.href='advertencia.html';
+		}
+} 
+</script> 
+
+</head>
+
+<body onload="mueveReloj()">
+
+<form name="form_reloj"> 
+<input type="text" name="reloj"  size="10"> 
+</form> 
+
+<ul id="MenuBar1" class="MenuBarVertical">
+<li><a href="prestamos.php">Prestamos</a></li>
+<li><a href="#" class="MenuBarItemSubmenu">Inventario</a>
+    <ul>
+      <li><a href="alta_inv.php">Alta de Productos Nuevos</a></li>
+      <li><a href="add_inv.php">Devoluciones/Alta</a></li>
+      <li><a href="show_inv.php">Listado General de Productos</a></li>
+    </ul>
+  </li>
+  <li><a href="#" class="MenuBarItemSubmenu">Trabajadores</a>
+    <ul>
+      <li><a href="alta_em.php">Alta de Trabajadores</a></li>
+      <li><a href="show_emp.php">Listado General de Trabajadores</a></li>
+      <li><a href="seguros.php">Seguro</a></li>
+      <li><a href="sueldos.php">Sueldos</a></li>
+      <li><a href="motos.php">Motocicletas</a></li>
+    </ul>
+  </li>
+  <li><a href="cc_1.php" class="MenuBarItemSubmenu">Corte de Caja General</a>
+    <ul>
+      <li><a href="total_cob.php">Semanal Cobradores</a></li>
+      <li><a href="vales.php">Cobranza Diaria</a></li>
+      <li><a href="#">Vales</a></li>
+      <li><a href="alta_conceptos.php">Alta de Conceptos</a></li>
+      <li><a href="total_cob.php">Cobranza Semanal</a></li>
+    </ul>
+  </li>
+  <li><a href="res_cob.php">Resumen Semanal Cobranza</a></li>
+  <li><a href="venta.php">Ventas</a></li>
+</ul>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>

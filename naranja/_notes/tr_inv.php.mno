@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:idtransaccion;datatype:int,name:tipo;datatype:int,name:cantidad;datatype:int,name:proveedor;datatype:string,name:modelo;datatype:string,name:fecha;datatype:date,name:articulos_idarticulos;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:idarticulos;datatype:int,name:articulo;datatype:string,name:modelo;datatype:string,name:existencia;datatype:real,name:cost_unitario;datatype:real,name:factura;datatype:string" />
+</info>
